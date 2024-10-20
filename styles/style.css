@@ -1,0 +1,50 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+.txtInput {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.divStatus {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.divDownload {
+    margin-top: 50px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.btnSend {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.liUrl {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.btnDownload {
+    width: 100px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.btnDownload:hover {
+    background-color: #f43636;
+    color: white;
+}
